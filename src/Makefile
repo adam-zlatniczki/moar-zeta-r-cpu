@@ -1,0 +1,10 @@
+shared_object:
+	cd ../moar-zeta-cpp-openmp && \
+	make -f Makefile.win shared_object && \
+    mv build/moar_zeta_cpp_openmp.so ../src/moar_zeta_cpp_openmp.so
+	# It's important to move the built shared object into the src directory beside the Makefile,
+	# otherwise the install process won't notice it.
+
+clean:
+	cd ../moar-zeta-cpp-openmp && \
+	make -f Makefile.win clean
