@@ -1,0 +1,12 @@
+Package: moar.zeta.cpu
+Version: 1.0
+Date: 2020-04-19
+Title: Zeta Metric Of Asymmetric Relationship
+Authors@R: c(person("Adam", "Zlatniczki", role = c("aut", "cre"), email = "adam.zlatniczki@cs.bme.hu"))
+Description: R wrapper for the C++ implementation that uses OpenMP.
+License: AGPL (= 3)
+URL: https://github.com/adam-zlatniczki/moar-zeta-r-cpu
+NeedsCompilation: yes
+Classification/ACM: G.3, G.4
+Classification/JEL: C12, C14, C20
+Classification/MSC: 62G08, 62G10, 62J02, 94A17
