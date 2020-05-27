@@ -1,0 +1,2 @@
+useDynLib(moar_zeta_cpp_openmp, hmp_value_r)
+export(hmp_value)
